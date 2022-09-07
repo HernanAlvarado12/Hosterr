@@ -25,47 +25,36 @@
         </header>
 
         <main class ="main">
-            <section class ="main__figure container--margin">
-                <figure class ="figure__container">
-                    <img class ="figure__image figure__image-1 element--z-index" src ="./assets/blueshape.svg" alt ="Shape of the color blue">
-                </figure>
-                <figure class ="figure__container">
-                    <img class ="figure__image figure__image-2 element--z-index" src ="./assets/pinkshape.svg" alt ="shape of the color pink">
-                </figure>
-                <figure class ="figure__container">
-                    <img class ="figure__image figure__image-3 element--z-index" src ="./assets/purpleshape.svg" alt ="shape of the color purple">
-                </figure>
-                <figure class ="figure__container">
-                    <img class ="figure__image figure__image-4 element--z-index" src ="./assets/heroImage.png" alt ="Photo of the person important">
-                </figure>
+            <section class ="main__figure container--margin container--relative">
+                <img class ="figure__image figure__image-1 element--width element--absolute" src ="./assets/blueshape.svg" alt ="Shape of the color blue">
+                <img class ="figure__image figure__image-2 element--width element--absolute" src ="./assets/pinkshape.svg" alt ="Shape of the color blue">
+                <img class ="figure__image figure__image-3 element--width element--absolute" src ="./assets/purpleshape.svg" alt ="Shape of the color blue">
+                <img class ="figure__image figure__image-4 element--width element--absolute" src ="./assets/heroImage.png" alt ="Shape of the color blue">
             </section>
             <section class ="main__section">
-                <h1 class ="section__title">Host your website in less than 5 minutes.</h1>
-                <p class ="section__content">
+                <h1 class ="section__title element--line-height">Host your website in less than 5 minutes.</h1>
+                <p class ="element--size-fourteen element--color element--line-height">
                     With Hosterr, get your website up and running in no less than 5 minutes with
                      the most competitive pricing packages avaliable online.
                 </p>
-                <form class ="section__form">
-                    <label>
-                        <span>Enter e-mail address</span>
-                        <input class ="form__input form__input--border" type ="email">
-                    </label>
-                    <input class ="form__input form__submit form__input--border" type ="submit" value ="Join Waitlist">
+                <form>
+                    <input class ="form__input form__input__email form__input--border element--width element--size-fourteen element--margin-one" type ="email" placeholder ="Enter e-mail address">
+                    <input class ="form__input form__submit form__input--border element--width" type ="submit" value ="Join Waitlist">
                 </form>
-                <div class ="container--flex">
+                <div class ="container--flex container--margin-one container--column-gap">
                     <img src ="./assets/checkmark.svg" alt ="icon of the check">
-                    <p>No spam, ever. Unsubscribe anytime.</p>
+                    <p class ="element--size-fourteen">No spam, ever. Unsubscribe anytime.</p>
                 </div>
             </section>
         </main>
         
         <footer class ="footer__container">
-            <ul>
-                <li><a href ="">Facebook</a></li>
-                <li><a href ="">Instagram</a></li>
-                <li><a href ="">Twitter</a></li>
+            <ul class ="container--flex container--size-fourteen">
+                <li><a class ="ul__link element--color" href ="">Facebook</a></li>
+                <li><a class ="ul__link element--color" href ="">Instagram</a></li>
+                <li><a class ="ul__link element--color" href ="">Twitter</a></li>
             </ul>
-            <figure>
+            <figure class ="container--flex container--column-gap">
                 <img src ="./assets/helpavatar.svg" alt ="Photo of an user">
                 <figcaption>
                     <h2>Have any questions?</h2>
