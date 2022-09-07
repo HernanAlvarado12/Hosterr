@@ -71,6 +71,9 @@ html {
 
 .section__title {
     font-size: 4.2rem;
+}
+
+.element--font, .container--font {
     font-family: 'Playfair Display', serif;
 }
 
@@ -112,17 +115,20 @@ html {
 }
 
 .footer__container {
-    
+    margin: 5rem 0 2rem 0;
 }
 
 .footer__container li {
     list-style: none;
 }
 
+.footer__list {
+    margin-bottom: 4rem;
+}
+
 .element--column-gap, .container--column-gap {
     column-gap: 1.5rem;
 }
-
 
 .ul__link {
     margin-right: 1rem;
