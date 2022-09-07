@@ -19,12 +19,21 @@
 
         <header>
             <nav class="header__navbar container--flex container--flex--justify">
-                <img src ="./assets/logo.svg" alt ="logo of the page">
-                <img src ="./assets/menu.svg" alt ="icon of the menu">
+                <a href =""><img src ="./assets/logo.svg" alt ="logo of the page"></a>
+                <a class ="element--remove-desktop" href =""><img src ="./assets/menu.svg" alt ="icon of the menu"></a>
+                <ul class ="navbar__links container--flex">
+                    <li><a class ="element--size-fourteen element--color ul__link" href ="">Plans</a></li>
+                    <li><a class ="element--size-fourteen element--color ul__link" href ="">Find Domain</a></li>
+                    <li><a class ="element--size-fourteen element--color ul__link" href ="">Why Hosterr</a></li>
+                </ul>
+                <ul class ="navbar__links container--flex">
+                    <li><a class ="element--size-fourteen element--color ul__link" href ="">Sign in</a></li>
+                    <li><a class ="element--size-fourteen ul__link" href ="">Join Waitlist</a></li>
+                </ul>
             </nav>
         </header>
 
-        <main class ="main">
+        <main class ="main__container">
             <section class ="main__figure container--margin container--relative">
                 <img class ="figure__image figure__image-1 element--width element--absolute" src ="./assets/blueshape.svg" alt ="Shape of the color blue">
                 <img class ="figure__image figure__image-2 element--width element--absolute" src ="./assets/pinkshape.svg" alt ="Shape of the color blue">

@@ -14,6 +14,9 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+a{ text-decoration: none; }
+li{ list-style: none; }
+
 .body__container {
     width: 90%;
 }
@@ -25,6 +28,10 @@ html {
 .element--flex, .container--flex {
     display: flex;
     align-items: center;
+}
+
+.navbar__links {
+    display: none;
 }
 
 .element--flex--justify, .container--flex--justify {
@@ -107,6 +114,7 @@ html {
     font-size: 1.5rem;
     font-weight: 800;
     border-radius: 0.6rem;
+    cursor: pointer;
     background-color: var(--blue);
 }
 
@@ -116,10 +124,6 @@ html {
 
 .footer__container {
     margin: 5rem 0 2rem 0;
-}
-
-.footer__container li {
-    list-style: none;
 }
 
 .footer__list {
@@ -132,5 +136,4 @@ html {
 
 .ul__link {
     margin-right: 1rem;
-    text-decoration: none;
 }
